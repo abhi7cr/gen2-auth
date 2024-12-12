@@ -1,0 +1,32 @@
+{
+  "version": "38.0.1",
+  "files": {
+    "86089db5a3a13f816355adfa0712577624518964ca05c16ba635c2670ea1cb1a": {
+      "source": {
+        "path": "amplifymygen2appbasicauthrefsandbox0fd257e5ebauth98088FF5.nested.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "86089db5a3a13f816355adfa0712577624518964ca05c16ba635c2670ea1cb1a.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "66c3b6a0f799c54d308b3e6e065e40b1c8ba80710f5d69e3691ecbd1fbfdd550": {
+      "source": {
+        "path": "amplify-mygen2app-basicauthref-sandbox-0fd257e5eb.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "66c3b6a0f799c54d308b3e6e065e40b1c8ba80710f5d69e3691ecbd1fbfdd550.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
